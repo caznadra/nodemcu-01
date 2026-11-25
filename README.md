@@ -12,12 +12,16 @@ Baskomponenter i en mikroprocessor
 
 - Interface - Punkten där systemen möts, interaktion uppstår här
 
-## Bas funktioner i Arduino
+## Basfunktioner i Arduino
  
 void setup = Körs alltid först, och en gång
+
 void loop = Körs om och om igen, i en loop. Ex. läser av en temperatur
+
 pinMode(*pin*, OUTPUT/INPUT)
+
 digitalWrite(*pin*,HIGH/LOW)
+
 delay(ms)
 
 ## Portinitiering
@@ -29,8 +33,6 @@ Kopplingar i setup'en
 ```
 void setup() {
   pinMode(D5, OUTPUT);
-  pinMode(D6, OUTPUT);
-  pinMode(D7, OUTPUT);
 }
 ```
 
@@ -41,16 +43,6 @@ void loop() {
   digitalWrite(D5, HIGH);
   delay(50);                     
   digitalWrite(D5, LOW);
-  delay(50);     
-
-  digitalWrite(D6, HIGH);
   delay(50);                     
-  digitalWrite(D6, LOW);
-  delay(50);   
-  
-  digitalWrite(D7, HIGH);
-  delay(50);                     
-  digitalWrite(D7, LOW);
-  delay(50);                  
 }
 ```
