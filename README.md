@@ -39,7 +39,11 @@ void setup() {
   pinMode(D5, OUTPUT);
 }
 ```
+D5 = Pin vi kopplar mot
 
+OUTPUT = utgång
+
+---
 Kopplingar i loop'en
 
 ```
@@ -50,6 +54,13 @@ void loop() {
   delay(50);                     
 }
 ```
+HIGH = Ström på
+
+LOW = Ström av
+
+delay(50) = Hastigheten vi vill att detta sker i
+
+---
 
 ### Serial Monitoring
 
