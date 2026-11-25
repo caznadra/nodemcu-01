@@ -14,15 +14,19 @@ Baskomponenter i en mikroprocessor
 
 ## Basfunktioner i Arduino
  
-void setup = Körs alltid först, och en gång
+- void setup = Körs alltid först, och en gång
 
-void loop = Körs om och om igen, i en loop. Ex. läser av en temperatur
+- void loop = Körs om och om igen, i en loop. Ex. läser av en temperatur
 
-pinMode(*pin*, OUTPUT/INPUT)
+```
+void setup() {
 
-digitalWrite(*pin*,HIGH/LOW)
+}
 
-delay(ms)
+void loop() {
+               
+}
+```
 
 ## Portinitiering
 
@@ -46,3 +50,6 @@ void loop() {
   delay(50);                     
 }
 ```
+
+### Serial Monitoring
+
